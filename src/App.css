@@ -1,0 +1,48 @@
+/* -------------------------------------
+   UNIVERSAL ROOT VARIABLES
+-------------------------------------- */
+:root {
+  /* BRAND COLORS */
+  --primary: #ff6a00;
+  /* Orange */
+  --primary-dark: #e65c00;
+  --secondary: #ffce54;
+  /* Yellow */
+  --accent: #ff9f00;
+  /* Accent Orange */
+  --dark: #1a1a1a;
+  --light: #ffffff;
+  --gray: #777;
+
+  /* FONT SYSTEM */
+  --font-main: 'Poppins', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+
+  /* FONT SIZES */
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-xxl: 36px;
+
+  /* BORDER RADIUS */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 22px;
+
+  /* SHADOWS */
+  --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.15);
+
+  /* SPACING SYSTEM */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+}
+
+
+
