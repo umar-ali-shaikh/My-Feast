@@ -40,7 +40,7 @@ const Header = () => {
 
         <div>
           <a
-            href=""
+            href="tel:9324505363"
             className="header-top-number header-top-social d-flex gap-2 align-items-center"
           >
             <i className="fa-solid fa-phone"></i>
