@@ -26,7 +26,7 @@ header {
     max-width: 1400px;
     margin: auto;
     left: 0;
-    background-color: #00000021;
+    /* background-color: #00000021; */
     z-index: 11111;
     padding-right: 20px;
     top: 0;
@@ -35,7 +35,23 @@ header {
 }
 
 .navbar-btn-hlp {
+    position: relative;
     display: flex;
+    z-index: 111;
+}
+
+.navbar-btn-hlp .btn-primary a {
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+    height: 15px;
+}
+
+a.header-top-social .fa-solid,
+a.header-top-social span {
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
 }
 
 .navbar {
@@ -74,6 +90,8 @@ header {
 
 .header-top-language .bi-caret-down-fill {
     font-size: 12px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-container {

@@ -15,7 +15,7 @@
   --gray: #777;
 
   /* FONT SYSTEM */
-  --font-main: 'Poppins', sans-serif;
+  --font-main: "Noto Serif Devanagari", sans-serif;
   --font-heading: "Noto Serif Devanagari", sans-serif;
 
   /* FONT SIZES */
@@ -58,7 +58,7 @@
 }
 
 body {
-  font-family: var(--font-main);
+  font-family: "Noto Serif Devanagari", sans-serif;
   background: #fafafa;
   color: var(--dark);
   padding: 0;
@@ -87,6 +87,12 @@ h2 {
 
 h3 {
   font-size: var(--fs-lg);
+}
+
+.lang {
+  margin-bottom: -5px;
+  display: flex;
+  justify-content: center;
 }
 
 /* -------------------------------------

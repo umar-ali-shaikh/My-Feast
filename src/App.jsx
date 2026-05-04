@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./component/header";
+import Header from "./component/headers";
 import HomeBody from "./component/home";
 import Footer from "./component/footer";
 import { changeLanguage } from "./component/changelanguage";
