@@ -169,7 +169,7 @@ const HomeBody = () => {
       <section className="section2">
         <div className="container">
           <div className="row d-flex">
-            <div className="header-content col d-flex flex-column justify-content-center">
+            <div className="header-content col d-flex flex-column ">
               <h2 className="pb-2 lang" data-key="section2_h2_1">
                 मायफेस्ट – तुमच्या गणेशोत्सवाचे डिजिटल व्यवस्थापन आता सुलभ!
               </h2>

@@ -10,6 +10,15 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const langRef = useRef(null);
 
+  const scrollToPlans = (e) => {
+    e.preventDefault();
+
+    const section = document.getElementById("plains-section");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   // Close when clicking outside
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -104,25 +113,21 @@ const Header = () => {
           <div className={`navbar-btn-hlp gap-3 ${menuOpen ? "show" : ""}`}>
             <button
               type="button"
+              onClick={scrollToPlans}
               className="btn btn-primary navbar-btn lang px-4 py-1 rounded-5 h-100"
               data-key="nav_silver_plan"
             >
-              <a
-                href="#plains-section"
-                className="d-flex align-items-center"
-              >
+              <a href="/#plains-section" className="d-flex align-items-center">
                 Silver Plan
               </a>
             </button>
             <button
               type="button"
+              onClick={scrollToPlans}
               className="btn btn-primary navbar-btn lang px-4 py-1 rounded-5 h-100"
               data-key="nav_gold_plan"
             >
-              <a
-                href="#plains-section"
-                className="d-flex align-items-center"
-              >
+              <a href="/#plains-section" className="d-flex align-items-center">
                 Gold Plan
               </a>
             </button>

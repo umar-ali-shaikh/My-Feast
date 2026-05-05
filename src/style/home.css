@@ -2,11 +2,12 @@
 
 .hero-section {
     height: 100vh;
-    max-height: 600px;
+    max-height: 700px;
+    min-height: 700px;
+    background-position: center center;
 }
 
 .hero-section .container {
-    background-position: center left;
     display: flex;
     align-items: center;
 
@@ -49,24 +50,25 @@
 
 
 .section2 {
-    clip-path: inset(-100px 0 -100px -100px);
-    height: 100%;
+    overflow: hidden;
 }
 
 .section2 .container {
     max-width: 1400px;
+    height: fit-content;
 }
 
 .section2 .header-content {
     position: relative;
+    padding-top: 80px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section2 .header-content img {
-    position: absolute;
     width: 30%;
     height: 30%;
-    bottom: -100px;
-    left: -20px;
 }
 
 .header-image {
@@ -389,7 +391,6 @@
 
     /* hero-section */
     .hero-section {
-        background-position: -25vw;
         background-size: cover;
     }
 }
@@ -401,7 +402,6 @@
 
     /* hero-section */
     .hero-section {
-        background-position: right;
         background-size: cover;
     }
 
@@ -409,23 +409,21 @@
         width: 50%;
     }
 
-    .section2 .container {
-        padding: 50px 0;
+    .section2 .container .row {
+        flex-direction: column;
     }
 
     .header-image {
         overflow: visible;
     }
+
+    .section2 .header-image2 {
+        bottom: -250px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .section2 .header-content img {
-        position: absolute;
-        width: 25%;
-        height: fit-content;
-        bottom: -100px;
-        left: -10px;
-    }
+
 
     .section3 .header-content h2 {
         font-size: 36px;
@@ -436,9 +434,6 @@
 @media (max-width: 650px) {}
 
 @media (max-width: 810px) {
-    .section2 .container {
-        padding-bottom: 0 !important;
-    }
 
     .section2 .row {
         flex-direction: column;
@@ -465,9 +460,7 @@
 }
 
 @media (max-width: 768px) {
-    .section2 {
-        padding-bottom: 0 !important;
-    }
+
 
     .section3 {
         padding-bottom: 120px;
@@ -497,13 +490,18 @@
     }
 
     .section2 {
+        padding-bottom: 0 !important;
+    }
+
+    .section2 {
         padding: 50px 0;
     }
 
     .section2 .header-content img {
+        position: absolute;
         z-index: 1111111;
         bottom: -80px;
-        left: -70px;
+        left: 60vw;
         object-fit: contain;
         height: 45%;
         width: 45%;
@@ -723,7 +721,6 @@
 
     /* hero-section */
     .hero-section {
-        background-position: 57% center;
         background-size: cover;
     }
 

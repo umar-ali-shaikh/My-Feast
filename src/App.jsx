@@ -1,25 +1,25 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./component/headers";
+import Header from "./component/headersMains";
 import HomeBody from "./component/home";
 import Footer from "./component/footer";
 import { changeLanguage } from "./component/changelanguage";
+import FirstTimePopup from "./component/FirstTimePopup";
 
 const App = () => {
-
   useEffect(() => {
     const savedLang = localStorage.getItem("site_lang");
 
     if (savedLang) {
       changeLanguage(savedLang);
     } else {
-      changeLanguage("mr");   // DEFAULT LANGUAGE = MARATHI
+      changeLanguage("mr"); // DEFAULT LANGUAGE = MARATHI
     }
   }, []);
 
-
   return (
     <BrowserRouter>
+      <FirstTimePopup />
       <Header />
 
       <Routes>
@@ -32,8 +32,6 @@ const App = () => {
 
       <Footer />
     </BrowserRouter>
-
-
   );
 };
 
