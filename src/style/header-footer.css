@@ -227,7 +227,7 @@ a.header-top-social span {
 .popup-box {
     width: 90%;
     max-width: 500px;
-    height: 400px;
+    height: fit-content;
 
     /* ✅ white transparent effect */
     background: rgba(255, 255, 255, 0.6);
