@@ -170,9 +170,9 @@ const HomeBody = () => {
         <div className="container">
           <div className="row d-flex">
             <div className="header-content col d-flex flex-column ">
-              <h2 className="pb-2 lang" data-key="section2_h2_1">
+              <h1 className="pb-2 lang" data-key="section2_h2_1">
                 मायफेस्ट – तुमच्या गणेशोत्सवाचे डिजिटल व्यवस्थापन आता सुलभ!
-              </h2>
+              </h1>
 
               <p className="pb-2 lang" data-key="section2_p1">
                 मायफेस्ट" ऍपच्या मदतीने गणेशोत्सवाचे डिजिटल व्यवस्थापन आता अधिक
