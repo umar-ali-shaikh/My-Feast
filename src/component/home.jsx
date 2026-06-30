@@ -759,7 +759,7 @@ const HomeBody = () => {
                       वार्षिक देखभाल शुल्क
                     </span>
                     <p className="lang" data-key="section6_gold_p1">
-                      गोल्ड: ₹11000
+                      गोल्ड: ₹21000
                     </p>
                   </div>
 
@@ -1001,7 +1001,7 @@ const HomeBody = () => {
                   Annual Maintenance Charges
                 </span>
                 <p className="lang" data-key="section6_gold_p1">
-                  Gold: ₹11000
+                  Gold: ₹21000
                 </p>
               </div>
 
