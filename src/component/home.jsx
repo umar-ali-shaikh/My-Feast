@@ -647,7 +647,7 @@ const HomeBody = () => {
                   className="d-flex section6-spanhlp2 lang"
                   data-key="section6_gold_span2"
                 >
-                  ₹11000
+                  ₹21000
                 </span>
                 <ul className="elementor-price-table__features-list">
                   <li className="elementor-repeater-item-4d655ef">
