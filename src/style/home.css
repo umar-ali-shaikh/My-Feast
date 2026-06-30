@@ -1,5 +1,7 @@
 /* home body */
-
+.lang {
+  white-space: pre-wrap;
+}
 .hero-section {
     height: 100vh;
     max-height: 700px;

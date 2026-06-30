@@ -97,7 +97,7 @@ export const LANG = {
         section6_silver_maint: "वार्षिक देखभाल शुल्क",
         section6_silver_p1: "सिल्व्हर : ₹1100",
         section6_silver_p2: "या गोष्टींसाठी अजिबात अतिरिक्त पैसे नाहीत:",
-        section6_silver_p3: "1) एसएमएस संदेश\n2) मासिक बातम्या",
+            section6_silver_p3: "1) एसएमएस संदेश\n2) मासिक बातम्या",
         section6_gold_h3: "GOLD PLAN",
         section6_gold_span1: "आयुष्यभरासाठी ॲप खर्च",
         section6_gold_span2: "₹11000",
